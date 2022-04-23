@@ -1,0 +1,7 @@
+version: "3"
+services:
+  myapp:
+    build: .
+    tty: true
+    volumes:
+        - ./app:/go/src/app
